@@ -56,12 +56,12 @@ class Regression() :
 def main() :
 	
 	# Importing test dataset	
-	df = pd.read_csv( "ds1_test.csv" ) # Can be replaced with "ds2_test.csv"
+	df = pd.read_csv( "ds1_test.csv" ) # Can be replaced with other data sets
 	X_test = df.iloc[:,:-1].values
 	Y_test = df.iloc[:,-1:].values
 
     # Importing train dataset	
-	df1 = pd.read_csv( "ds1_train.csv" ) # Can be replaced with "ds2_train.csv"
+	df1 = pd.read_csv( "ds1_train.csv" ) # Can be replaced with other data sets
 	X_train = df1.iloc[:,:-1].values
 	Y_train = df1.iloc[:,-1:].values
 	
